@@ -34,34 +34,36 @@
 					<h2>Login</h2>
 					<!-- For user email to receive notes -->
 					<label for="email">Email</label>
-					<input class="inputbox" type="email" class="email" name="email" autocomplete="off">
+					<input class="inputbox email" type="email" id="email" name="email" autocomplete="off">
 
 					<!-- For Full Name -->
 					<label for="name">Password</label>
-					<input class="inputbox" name="Password" type="password" class="name" autocomplete="off">
+					<input class="inputbox name" name="Password" type="password" id="name" autocomplete="off">
 
 					<!-- For selecting course which email he wantss -->
-					<label for="course">Select Subject</label>
+					<p for="course">Select Subject</p>
 					<div class="options">
 						<div class="eachoption">
-							<input type="checkbox" checkbox="off">
-							<span>Web Development</span>
+							<input id="webDevelopment" type="checkbox">
+							<label for="webDevelopment">Web Development</label>
 						</div>
 						<div class="eachoption">
-							<input type="checkbox" checkbox="off">
-							<span>Machine Learing</span>
+							<input id="machineLearning" type="checkbox">
+							<label for="machineLearning">Machine Learing</label>
 						</div>
 					</div>
 
 
 					<!-- For Agree line and checkbox -->
-					<input type="checkbox" class="agree" checkbox="off">
-					<label class="agree">I want to receive promotion mails and News about Web development and Machine
-						Learning</label>
+					<div class="agree-input">
+						<input id="agree" type="checkbox" class="agree" >
+						<label for="agree" class="agree">I want to receive promotion mails and News about Web development and Machine
+							Learning</label>
+					</div>
 
 					<!-- For Privacy Policy Line -->
-					<label class="privacy_policy">By clicking the submit button, you agree to our <span>Terms &
-							Conditions</span> and <span>Privacy Policy</span>.</label>
+					<p class="privacy_policy">By clicking the submit button, you agree to our <span>Terms &
+							Conditions</span> and <span>Privacy Policy</span>.</p>
 
 
 					<!-- For Submit Button-->

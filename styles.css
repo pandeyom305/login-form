@@ -106,11 +106,16 @@ h2 {
   font-weight: 600;
 }
 
-label {
+label, form p{
   font-size: 1.2rem;
   color: grey;
   font-weight: 400;
   display: block;
+  margin: 0;
+}
+
+.agree-input{
+  display: flex;
 }
 
 .inputbox {
@@ -134,15 +139,16 @@ label {
 }
 
 .eachoption {
-  display: inline-block;
+  display: inline-flex;
+  align-items:center;
   width: 49%;
 }
 
-.eachoption span {
-  vertical-align: top;
+.eachoption label {
   color: #615a5a;
   font-size: 1.1rem;
   font-weight: 500;
+  margin-left: 5px;
 }
 
 input[type=checkbox] {
